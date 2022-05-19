@@ -1,0 +1,52 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9BA3EB;
+}
+
+li {
+    float: left;
+    border-right:1px solid #242F9B;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #646FD4;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #646FD4;
+}
+
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid black;
+    
+}
+
+
