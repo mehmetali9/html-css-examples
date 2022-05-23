@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    height: 170px;
+    width: 1400px;
+    margin: 1px auto;
+}
+
+#arama{
+    display: inline-block;
+    background-color: #EEEEEE;
+    height: 65px;
+    width: 1400px;
+}
+
+#search{
+    width: 300px; 
+}
+
+div{
+    display: inline-block;
+    height: 100px;
+    width: 400px;
+    margin: 1px;
+    
+}
+
+.kutu1{
+    font-size: 18px;
+    background-color:#7EE5DA ;
+    width: 40%;
+    height: 50%;
+    margin:1px;
+}
+
+.kutu2{
+    background-color: #70CCC2;
+    width: 25%;
+    height: 50%;
+    margin:1px;
+}
+
+.kutu3{
+    background-color: #62B3AA;
+    width: 50%;
+    height: 50%;
+    margin:1px;
+}
+
+
+
+
+
